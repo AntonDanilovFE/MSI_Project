@@ -1,0 +1,63 @@
+header .navbar {
+  border-radius: 0px;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > li > a:hover {
+  background: none;
+}
+
+.navbar-inverse {
+  background: rgba(0, 0, 0, 0.418) !important;
+}
+
+#myNavbar ul li {
+  padding: 40px 15px 30px;
+
+  text-transform: uppercase;
+}
+
+#myNavbar ul li.active a {
+  color: #005dac;
+}
+
+#myNavbar ul li.active > a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  border-bottom: 2px solid #005dac;
+  bottom: 0;
+  transition: all 0.2s;
+}
+
+#myNavbar ul li a {
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-inverse #myNavbar li:hover a::after,
+#myNavbar ul li a:hover {
+  border-bottom: 2px solid #005dac;
+  color: #005dac;
+}
+
+#myNavbar ul li a {
+  padding: 0 0 5px;
+  font-size: 22px;
+  font-family: "gilroybold", sans-serif;
+  color: rgb(255, 255, 255);
+  transition: all 0.2s ease-in 0.2s;
+}
+
+header .navbar-brand {
+  padding: 20px 15px;
+}
+.navbar-brand img {
+  width: 186px;
+  height: 55px;
+}
+header .navbar {
+  margin-bottom: 0;
+}

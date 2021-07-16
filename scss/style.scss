@@ -1,0 +1,74 @@
+@import "fonts";
+@import "normalize";
+@import "nav";
+@import "responsive";
+@import "home";
+@import "news";
+@import "videoCommunity";
+@import "googleMap";
+@import "footer";
+@import "contactMain";
+@import "contactTeam";
+@import "fullStoryBox";
+
+// .alignleft {
+//   float: left;
+//   margin-right: 15px;
+// }
+
+// .alignright {
+//   float: right;
+//   margin-left: 15px;
+// }
+
+// .aligncenter {
+//   display: block;
+//   margin: 0 auto 15px;
+// }
+
+// a:focus {
+//   outline: 0 solid;
+// }
+
+// img {
+//   max-width: 100%;
+//   height: auto;
+// }
+
+// .fix {
+//   overflow: hidden;
+// }
+
+// p {
+//   font-family: "Lato", sans-serif;
+// }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  font-weight: 900;
+  font-family: "gilroysemibold", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+// a {
+//   color: #fff;
+//   font-family: "gilroybold", sans-serif;
+// }
+
+a:hover {
+  text-decoration: none;
+}
+
+// .btn-trans:focus {
+//   outline: none;
+//   color: #fff;
+// }

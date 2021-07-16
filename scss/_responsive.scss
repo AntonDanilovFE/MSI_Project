@@ -1,0 +1,36 @@
+// /* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) {
+  #news .box_1 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+// /* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #myNavbar ul li {
+    padding: 38px 9px 31px;
+  }
+  header .navbar-brand {
+    padding: 20px 1px;
+  }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+  header .navbar-brand {
+    padding: 6px 16px;
+    height: 70px;
+  }
+  #news .box_1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  #myNavbar ul li {
+    padding: 0 20px 10px;
+    text-transform: uppercase;
+  }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
